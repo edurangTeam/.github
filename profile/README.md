@@ -3,7 +3,8 @@
 test
 # 🎓 에듀랑 (Edurang) – 온라인 학습 커뮤니티 플랫폼
 
-> **에듀랑**은 학생들이 서로 질문하고 정보를 공유하며 함께 성장할 수 있도록 돕는 **온라인 교육 커뮤니티 웹 애플리케이션**입니다.
+> **에듀랑**은 학생들이 서로 질문하고 정보를 공유하며 함께 성장할 수 있도록 돕는
+> **온라인 교육 커뮤니티 웹 애플리케이션**입니다.
 
 ---
 
@@ -12,7 +13,7 @@ test
 - **프로젝트명**: 에듀랑 (Edurang)
 - **기간**: 2024.02.24 ~ 2024.03.07
 - **팀 인원**: 4명
-- **역할**: 회원 기능/마이페이지/포인트 기능/게시판 구현 등
+- **역할**: 회원 기능/게시판 구현/마이페이지/포인트 기능 등
 
 ### 💡 주요 기능
 - 게시글 작성, 수정, 삭제 (카테고리별 분류)
@@ -24,6 +25,12 @@ test
 - 포인트 및 등급 시스템 (멘티/멘토 구분)
 
 ---
+### 개념적 모델링
+![image](https://github.com/user-attachments/assets/56520f43-4db2-47a8-838e-3885a7378c82)
+
+### 물리적 모델링
+![image](https://github.com/user-attachments/assets/c86bb493-c522-41cb-a2d3-cbed6f20e4ae)
+
 
 ## 🔧 사용 기술 및 개발 환경
 
@@ -31,9 +38,9 @@ test
 |-------------|---------------------------------------------|
 | 언어        | Java, HTML, CSS, JavaScript                 |
 | 프레임워크  | JSP, Servlet, jQuery, Bootstrap             |
-| 데이터베이스| MariaDB (ERD 설계 및 SQL 작성)         |
+| 데이터베이스| MariaDB        |
 | 서버        | Apache Tomcat                               |
-| 기타 도구   | AJAX, DBCP, JNDI, Eclipse, Git, Notion 등   |
+| 기타 도구   | Eclipse, Git, Notion   |
 
 ---
 
@@ -41,7 +48,7 @@ test
 
 ### 🗂 게시판
 - CRUD + 페이징 + 검색
-- 카테고리 및 학년 필터링
+- 카테고리 및 검색 조건 필터링
 - 공감 수/댓글 수/조회수 기준 정렬
 
 ### ❤️ 상호작용
@@ -74,7 +81,7 @@ test
 
 ---
 
-## 🌱 회고 및 성과
+## 🌱 회고
 
 - **사용자 경험 향상**: 페이지 전환 없이 데이터를 가져오는 AJAX 적용으로 UX 향상
 - **성공적인 협업**: 역할 분담과 Git 커밋 컨벤션 기반 협업으로 일정 내 완성
@@ -84,4 +91,5 @@ test
 
 ## 📽 시연 영상
 
-👉 [에듀랑 시연 영상 보러가기](https://www.canva.com/design/DAGhBJESapE/EH-xCZ9b4v-Dn0QQWuogiw/watch?utm_content=DAGhBJESapE&utm_campaign=share_your_design&utm_medium=link2&utm_source=shareyourdesignpanel)
+👉 [에듀랑 시연 영상 보러가기]
+https://www.canva.com/design/DAGhlElnZns/AYE_Gy9mHeZ-sqKp2d5r-g/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0
