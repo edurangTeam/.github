@@ -36,10 +36,10 @@ test
 
 | 분류        | 기술 스택                                   |
 |-------------|---------------------------------------------|
-| 언어        | Java, HTML, CSS, JavaScript                 |
+| 언어        | Java 17, HTML, CSS, JavaScript                 |
 | 프레임워크  | JSP, Servlet, jQuery, Bootstrap             |
 | 데이터베이스| MariaDB        |
-| 서버        | Apache Tomcat                               |
+| 서버        | Apache Tomcat 9.0                               |
 | 기타 도구   | Eclipse, Git, Notion   |
 
 ---
